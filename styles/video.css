@@ -21,6 +21,11 @@
   object-position: center;
   border-radius: 12px;
 }
+.box-video:hover{
+  .pic{
+    border-radius: 0px;
+  }
+}
 .number{
   background-color: black;
   color: white;
@@ -29,8 +34,8 @@
   font-size: 12px;
   font-weight: 500;
   padding: 2px;
-  bottom: 2px;
-  right: 2px;
+  bottom: 6px;
+  right: 4px;
 }
 .box-detail{
   display:grid;
